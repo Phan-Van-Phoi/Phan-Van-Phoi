@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F3EEFF;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #A78BFA;
+
+}
+
+.tieuDe {
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header ul li:hover {
+    background-color: rgb(162, 0, 255);
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+}
+
+main sidebar {
+    min-height: 600px;
+    border: 5px solid #E9E0FF;
+}
+
+sidebar ul {
+
+    display: block;
+    list-style: none;
+}
+
+sidebar ul li {
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+}
+
+sidebar ul li a {
+    margin-left: 0px;
+}
+
+sidebar ul li:hover {
+    background-color: rgb(162, 0, 255);
+}
+
+main article {
+    grid-column: 2 / span 5;
+    min-height: 600px;
+    border: 5px solid rebeccapurple;
+    text-align: center;
+}
+
+.gioiThieu {
+    background-image: url("../image/nen.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    color: #2D2345;
+    margin: 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+section button {
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color:#8B5CF6;
+    color: #E9E0FF;
+}
+
+.hoatDong {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.khung {
+    border: 5px solid #E9E0FF;
+}
+.khung img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.khung button{
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:#8B5CF6;
+    color: #E9E0FF;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    border: 5px solid rebeccapurple;
+}
